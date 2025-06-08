@@ -107,9 +107,9 @@ body {
 }
 .react-datepicker.custom-calendar{
   border: none !important;
+  border-radius: 20px !important;
 }
 
-/* Header styling */
 .react-datepicker__header {
   background-color: #ff5a6014 !important;
   border-bottom: 1px solid #ff5a60 !important;
