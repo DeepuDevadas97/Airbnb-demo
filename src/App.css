@@ -105,6 +105,9 @@ body {
   box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.2) !important;
   font-family: "Airbnb-cereal" !important;
 }
+.react-datepicker.custom-calendar{
+  border: none !important;
+}
 
 /* Header styling */
 .react-datepicker__header {

@@ -65,7 +65,7 @@ const CustomDatePicker = ({label}) => {
         placeholderText="Add Dates"
         calendarClassName="custom-calendar"
         dayClassName={(date) =>
-          "text-sm text-center rounded-md transition-all duration-300 ease-in-out cursor-pointer " +
+          "text-sm text-center rounded-md transition-all duration-300 ease-in-out cursor-pointer" +
           (selectedDate?.toDateString() === date.toDateString()
             ? "bg-[#ff5a5f] text-white"
             : "text-[#546E7A] hover:bg-[#ffeaea]")
